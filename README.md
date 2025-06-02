@@ -47,3 +47,15 @@
 1. In Go, packages are used instead of classes. There are no concepts like OOPs.
 2. Each Go file must belong to some package, and it should start with keyword "package".
 3. The "main" package is a special package in Go. An executable program must contain a main package.
+
+## NOTES
+
+1. In order to export a variable, its first letter must be capitalised
+2. If the first letter of the variable is small, it is accessible only in that file
+3. func PublicExportableFunction(){
+   fmt.Println("This is a public function.")
+   }
+4. func privateNonExportableFunction(){
+   fmt.Println("This function cannot be exported.")
+   }
+5. Named function cannot be created inside another named function
