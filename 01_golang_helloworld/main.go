@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"helloworld/myutil"
+	myutil "helloworld/00_myutil"
 )
 
 func main() {

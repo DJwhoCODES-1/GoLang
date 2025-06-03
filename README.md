@@ -59,3 +59,5 @@
    fmt.Println("This function cannot be exported.")
    }
 5. Named function cannot be created inside another named function
+6. Buffer : Buffer is a temporary storage area in memory. Buffered readers are commonly used to improve the efficiency of input operations.
+7.
